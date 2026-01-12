@@ -16,21 +16,21 @@ usage.csv: Registro real del uso de servicios (duración de llamadas y cantidad 
 ## Etapas del Análisis
 El proyecto se desarrolló siguiendo estas fases:
 
-# Carga y Limpieza: 
+## Carga y Limpieza: 
 Importación de datos, manejo de valores ausentes (como churn_date) y estandarización de tipos de datos.
 
-# Agregación de Datos: 
+## Agregación de Datos: 
 Consolidación del consumo por usuario para unirlo con su perfil demográfico en un DataFrame único (user_profile).
 
-# Análisis Estadístico: 
+## Análisis Estadístico: 
 Visualización mediante Boxplots para identificar la dispersión de los datos y cálculo de límites mediante el Método del Rango Intercuartílico (IQR).
 
-# Segmentación:
+## Segmentación:
 Por Uso: Clasificación en 'Bajo uso', 'Uso medio' y 'Alto uso' mediante lógica condicional.
 Por Edad: Clasificación en 'Joven', 'Adulto' y 'Adulto Mayor'.
 
-# Visualización: 
+## Visualización: 
 Creación de gráficos de barras (countplots) para entender la distribución de los segmentos.
 
-# Insights Ejecutivos: 
+## Insights Ejecutivos: 
 Identificación del segmento de mayor valor (Adultos de Uso Medio) y recomendaciones comerciales basadas en hallazgos.
